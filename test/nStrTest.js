@@ -8,7 +8,6 @@ const test=(inStr,num,finalStr)=>{
     console.log('Incorrect');
   }
 }
-
 test('hello',3, 'hellohellohello');
 test('eat',2,'eateat');
 test('bye',2,'bye');

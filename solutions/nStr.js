@@ -8,4 +8,5 @@ const nStr=(inStr,num,i=0,outStr='')=>{
   return nStr(inStr,num,i+1,outStr);
 }
 
+
 module.exports = nStr;

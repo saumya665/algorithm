@@ -1,10 +1,8 @@
 const callX=(num,funct,i=1)=>{
-  if(i==num+1){
+  if(i==num){
     return;
   }
-  else{
-    funct(i);
-  }
+    funct();
   return callX(num,funct,i+1);
 }
 

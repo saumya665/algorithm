@@ -1,21 +1,17 @@
 const solution = require('../solutions/callX.js');
 
-sum=0;
+const test =(num)=>{
+let sum=0;
 const t =()=>{
   return sum = sum+1;
 }
-
-solution(5,t);
-if(sum===5){
-  console.log('Correct');
+solution(num,t);
+if(num==sum){
+  console.log('Right output');
+}else{
+  console.log('Wrong output');
 }
-
-solution(3,t);
-if(sum===3){
-  console.log('correct');
 }
+test(5);
+test(3);
 
-solution(2,t);
-if(sum===2){
-  console.log('correct');
-}

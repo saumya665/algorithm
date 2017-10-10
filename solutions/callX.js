@@ -1,9 +1,8 @@
 const callX=(num,funct,i=0)=>{
-  if(i==num){
-    return;
-  }
+  if(i<num){
     funct();
-  return callX(num,funct,i+1);
+    callX(num,funct,i+1);
+  }
 }
 
 module.exports = callX;

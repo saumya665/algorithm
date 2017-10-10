@@ -1,4 +1,4 @@
-const callX=(num,funct,i=1)=>{
+const callX=(num,funct,i=0)=>{
   if(i==num){
     return;
   }

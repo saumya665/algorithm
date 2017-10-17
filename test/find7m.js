@@ -8,6 +8,7 @@ const test =(num,result)=>{
     console.log("Incorrect answer");
   }
 }
+
 test(12,14);
 test(20,21);
 test(20,17);

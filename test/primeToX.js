@@ -1,7 +1,7 @@
 const solution = require('../solutions/primeToX.js');
 
 const test=(num,result)=>{
-  if(solution(num).toString()==result.toString()){
+  if(solution(num).toString()==result.toString()){ //use stringify
     console.log("Both arrays are the same");
   }
   else{

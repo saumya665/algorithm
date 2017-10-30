@@ -1,5 +1,5 @@
-const findMax=(linkedL,max=0)=>{
-  if(linkedL==null){
+const findMax=(linkedL,head=linkedL,max=0)=>{
+  if(linkedL==null||linkedL.next===head){
     return max;
   }
   if(linkedL.value>max){

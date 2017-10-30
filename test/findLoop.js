@@ -9,8 +9,8 @@ const r = {val:5};
 const z={val:2};
 const n = {val:1};
 n['next']=z;
-const test=(obj1,obj2,TF)=>{
-  if (solution(obj1,obj2)==TF){
+const test=(obj1,obj2,result)=>{
+  if (solution(obj1,obj2)==result){
     console.log("expected output");
   }
   else{

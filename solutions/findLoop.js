@@ -1,6 +1,3 @@
-const b = {val:2};
-const a = {val:1,next:b};
-b.next = a;
 const LL=(obj,refObj)=>{
   if(obj.next===refObj){
     return true;
@@ -10,5 +7,3 @@ const LL=(obj,refObj)=>{
   }
 module.exports = LL;
 
-//console.log(LL(a,a));
-//console.log(LL(b,b));
